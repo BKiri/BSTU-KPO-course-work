@@ -1,0 +1,101 @@
+﻿Сборка начата 21.12.2022 23:47:12.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\BKV-2022.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "C:\Users\Kirill\source\repos\BKV-2022\x64\Debug\".
+         Создание каталога "x64\Debug\BKV-2022.tlog\".
+       InitializeBuildStatus:
+         Создание "x64\Debug\BKV-2022.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt CG.cpp Error.cpp FST.cpp GRB.cpp In.cpp IT.cpp "BKV-2022.cpp" Log.cpp LT.cpp MFST.cpp Parm.cpp SA.cpp LA.cpp
+         CG.cpp
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LT.h(46,1): warning C4005: PARM_LEX: изменение макроопределения
+       C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\Parm.h(7): message : см. предыдущее определение "PARM_LEX"
+         Error.cpp
+         FST.cpp
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\FST.cpp(64,36): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         GRB.cpp
+         In.cpp
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LT.h(46,1): warning C4005: PARM_LEX: изменение макроопределения
+       C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\Parm.h(7): message : см. предыдущее определение "PARM_LEX"
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\In.cpp(5,1): warning C4005: STRING_END_ZERO: изменение макроопределения
+       C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\In.h(4): message : см. предыдущее определение "STRING_END_ZERO"
+         IT.cpp
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LT.h(46,1): warning C4005: PARM_LEX: изменение макроопределения
+       C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\Parm.h(7): message : см. предыдущее определение "PARM_LEX"
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\IT.cpp(113,36): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\IT.cpp(132,36): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+         BKV-2022.cpp
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LT.h(46,1): warning C4005: PARM_LEX: изменение макроопределения
+       C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\Parm.h(7): message : см. предыдущее определение "PARM_LEX"
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\BKV-2022.cpp(4,1): warning C4326: возвращаемый тип "wmain" должен быть "int", а не "void"
+         Log.cpp
+         LT.cpp
+         MFST.cpp
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LT.h(46,1): warning C4005: PARM_LEX: изменение макроопределения
+       C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\Parm.h(7): message : см. предыдущее определение "PARM_LEX"
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\MFST.cpp(242,68): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         Parm.cpp
+         SA.cpp
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LT.h(46,1): warning C4005: PARM_LEX: изменение макроопределения
+       C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\Parm.h(7): message : см. предыдущее определение "PARM_LEX"
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\SA.cpp(15,18): warning C4101: j: неиспользованная локальная переменная
+         LA.cpp
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LA.cpp(135,20): warning C4305: =: усечение из "int" в "char"
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LA.cpp(135,16): warning C4309: =: усечение константного значения
+         Создание кода...
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LT.cpp(26): warning C4715: LT::LexTable::GetEntry: значение возвращается не при всех путях выполнения
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\IT.cpp(194): warning C4172: возвращение адреса локальной или временной переменной : buffer
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\IT.cpp(203): warning C4172: возвращение адреса локальной или временной переменной : buffer
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\IT.cpp(187): warning C4172: возвращение адреса локальной или временной переменной : buffer
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\IT.cpp(250): warning C4715: IT::IdTable::GetEntry: значение возвращается не при всех путях выполнения
+     1>C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\CG.cpp(692): warning C4715: CG::generateInstructions: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kirill\source\repos\BKV-2022\x64\Debug\BKV-2022.exe" /INCREMENTAL /ILK:"x64\Debug\BKV-2022.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Kirill\source\repos\BKV-2022\x64\Debug\BKV-2022.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kirill\source\repos\BKV-2022\x64\Debug\BKV-2022.lib" /MACHINE:X64 x64\Debug\CG.obj
+         x64\Debug\Error.obj
+         x64\Debug\FST.obj
+         x64\Debug\GRB.obj
+         x64\Debug\In.obj
+         x64\Debug\IT.obj
+         "x64\Debug\BKV-2022.obj"
+         x64\Debug\Log.obj
+         x64\Debug\LT.obj
+         x64\Debug\MFST.obj
+         x64\Debug\Parm.obj
+         x64\Debug\SA.obj
+         x64\Debug\LA.obj
+         BKV-2022.vcxproj -> C:\Users\Kirill\source\repos\BKV-2022\x64\Debug\BKV-2022.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\BKV-2022.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\BKV-2022.tlog\BKV-2022.lastbuildstate".
+     1>Сборка проекта "C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\BKV-2022.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\BKV-2022.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LT.h(46,1): warning C4005: PARM_LEX: изменение макроопределения
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\FST.cpp(64,36): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LT.h(46,1): warning C4005: PARM_LEX: изменение макроопределения
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\In.cpp(5,1): warning C4005: STRING_END_ZERO: изменение макроопределения
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LT.h(46,1): warning C4005: PARM_LEX: изменение макроопределения
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\IT.cpp(113,36): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\IT.cpp(132,36): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LT.h(46,1): warning C4005: PARM_LEX: изменение макроопределения
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\BKV-2022.cpp(4,1): warning C4326: возвращаемый тип "wmain" должен быть "int", а не "void"
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LT.h(46,1): warning C4005: PARM_LEX: изменение макроопределения
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\MFST.cpp(242,68): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LT.h(46,1): warning C4005: PARM_LEX: изменение макроопределения
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\SA.cpp(15,18): warning C4101: j: неиспользованная локальная переменная
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LA.cpp(135,20): warning C4305: =: усечение из "int" в "char"
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LA.cpp(135,16): warning C4309: =: усечение константного значения
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\LT.cpp(26): warning C4715: LT::LexTable::GetEntry: значение возвращается не при всех путях выполнения
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\IT.cpp(194): warning C4172: возвращение адреса локальной или временной переменной : buffer
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\IT.cpp(203): warning C4172: возвращение адреса локальной или временной переменной : buffer
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\IT.cpp(187): warning C4172: возвращение адреса локальной или временной переменной : buffer
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\IT.cpp(250): warning C4715: IT::IdTable::GetEntry: значение возвращается не при всех путях выполнения
+         C:\Users\Kirill\source\repos\BKV-2022\BKV-2022\CG.cpp(692): warning C4715: CG::generateInstructions: значение возвращается не при всех путях выполнения
+
+    Предупреждений: 21
+    Ошибок: 0
+
+Прошло времени 00:00:05.97

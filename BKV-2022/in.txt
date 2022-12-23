@@ -1,0 +1,26 @@
+import <lib.txt>
+
+int function fun(int a)
+{
+int result = a + 5;
+return result; 
+};
+
+main
+{
+int b = 0 ; 	
+bool t = true;
+bool f = false;
+char c = 'c';
+str one = "Строка";   
+out b;
+out c;
+out t;
+out one;
+int func = fun(b);
+if ( b + 2  < 1 )
+{
+out func;
+}
+return 0 ;
+};

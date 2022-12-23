@@ -1,0 +1,28 @@
+Литералы
+Идентификатор  Тип данных  Значение  Длина строки  
+l0 INTGR 5
+l1 INTGR 0
+l10 STR "Строка" 9
+l11 INTGR 2
+l12 INTGR 1
+l13 INTGR 0
+
+Функции
+Идентификатор Тип данных возврата  Количество переданных параметров  
+compare INTGR 2
+strl INTGR 1
+strl INTGR 1
+fun INTGR 1
+main INTGR 0
+
+Переменные 
+Имя родительского блока  Идентификатор  Тип данных  Тип идентификатора  Значение  Длина строки  
+compare str1 STR  0
+compare str2 STR  0
+compare result INTGR 0
+fun a INTGR 0
+fun result INTGR 0
+main b INTGR 0
+main one STR "Строка" 9
+main func INTGR 0
+

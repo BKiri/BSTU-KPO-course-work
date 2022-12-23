@@ -1,0 +1,13 @@
+import <lib.txt>
+
+int function fun(int a)
+{
+int result = a + 5;
+return result; 
+};
+
+main
+{
+int fun = 5;
+return 0 ;
+};

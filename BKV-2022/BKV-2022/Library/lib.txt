@@ -1,0 +1,5 @@
+int function compare(str str1, str str2)
+{
+int result = strl(str1)-strl(str2);
+return result;
+};
